@@ -10,7 +10,7 @@ namespace StackUsingLinkedList_CSharp
     {
         public int info;
         public Node next;
-        public Node(int info, Node next)
+        public Node(int i, Node n)
         {
             info = i;
             next = n;
@@ -18,9 +18,10 @@ namespace StackUsingLinkedList_CSharp
     }
     class Stack
     {
-
-    }
-    static void Main(string[] args)
-    {
+        Node top;
+        public Stacks()
+        {
+            top = null;
+        }
     }
 }
